@@ -443,7 +443,7 @@
     <div class="hero-image-overlay"></div>
     <div class="hero-badge">
       <strong>MSc</strong>
-      Data Science<br>Merit · 2025
+      Data Science<br>2025
     </div>
   </div>
 </section>
@@ -652,7 +652,7 @@
       <div class="edu-degree">MSc Data Science</div>
       <div class="edu-uni">Coventry University · United Kingdom</div>
       <div style="font-size:.8rem; color: #555; margin-bottom:.8rem; line-height:1.6;">Database Systems · Cloud Computing · ML · Data Visualisation · Business Intelligence · API Development</div>
-      <div class="edu-year">Sep 2024 – Sep 2025 · Merit</div>
+      <div class="edu-year">Sep 2024 – Sep 2025</div>
     </div>
     <div class="edu-card">
       <div class="edu-degree-type">Postgraduate</div>
@@ -666,7 +666,7 @@
       <div class="edu-degree">BSc Computer Science</div>
       <div class="edu-uni">Acharya Nagarjuna University · Guntur, India</div>
       <div style="font-size:.8rem; color: #555; margin-bottom:.8rem; line-height:1.6;">Computer Science Fundamentals · Programming · Data Structures · Algorithms</div>
-      <div class="edu-year">Jul 2019 – May 2022 · First Class</div>
+      <div class="edu-year">Jul 2019 – May 2022</div>
     </div>
   </div>
 </section>
@@ -696,8 +696,8 @@
   </div>
   <div style="display:flex; gap:1rem; justify-content:center; flex-wrap:wrap;">
     <a class="btn-primary" href="mailto:someshbhimavarapu@gmail.com">Send Email</a>
-    <a class="btn-outline" style="border-color:rgba(245,240,232,.3); color:var(--cream);" href="https://www.linkedin.com/in/somesh-bhimavarapu/" target="_blank">LinkedIn Profile</a>
-    <a class="btn-outline" style="border-color:rgba(245,240,232,.3); color:var(--cream);" href="https://github.com/" target="_blank">GitHub</a>
+    <a class="btn-outline" style="border-color:rgba(245,240,232,.3); color:var(--cream);" href="https://www.linkedin.com/in/someswara-rao-bhimavarapu-674b77274" target="_blank">LinkedIn Profile</a>
+    <a class="btn-outline" style="border-color:rgba(245,240,232,.3); color:var(--cream);" href="https://github.com/somubhimavarapu" target="_blank">GitHub</a>
   </div>
   <div class="footer-rule">
     © 2025 Someswararao Bhimavarapu · Data Analyst · Coventry, UK
@@ -710,10 +710,7 @@ const PHOTO_B64 = '/9j/4AAQSkZJRgABAQEASABIAAD/4VxsRXhpZgAASUkqAAgAAAAMAA8BAgAGA
 
 document.addEventListener('DOMContentLoaded', () => {
   // Replace placeholder img with base64 photo
-  const heroImg = document.querySelector('.hero-img');
-  if (heroImg && PHOTO_B64.length > 100) {
-    heroImg.src = 'data:image/jpeg;base64,' + PHOTO_B64;
-  }
+  // photo loaded via src attribute directly
 
   // Scroll-triggered animations
   const observer = new IntersectionObserver((entries) => {
